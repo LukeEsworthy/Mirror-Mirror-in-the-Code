@@ -1,0 +1,18 @@
+div {
+  display: flex;
+  flex-direction: row;
+}
+
+#articleOne {
+  border: solid springgreen 3px;
+  flex-grow: 1;
+  margin: 5px;
+  min-height: 25px;
+}
+
+#articleTwo {
+  border: solid rgb(13, 28, 243) 3px;
+  flex-grow: 1;
+  margin: 5px;
+  min-height: 25px;
+}
